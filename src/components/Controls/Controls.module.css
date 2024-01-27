@@ -1,0 +1,26 @@
+.controlsWrapper {
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.controlBtn {
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(3, 7, 18, 0.02),
+    0 5px 4px rgba(3, 7, 18, 0.03),
+    0 12px 9px rgba(3, 7, 18, 0.05),
+    0 20px 15px rgba(3, 7, 18, 0.06),
+    0 32px 24px rgba(3, 7, 18, 0.08);
+
+
+}

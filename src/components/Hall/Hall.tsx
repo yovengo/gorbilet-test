@@ -5,7 +5,6 @@ import { ReactComponent as HallSVG } from '../../assets/hall.svg';
 
 export const Hall = () => {
   const [selectedSeats, setSelectedSeats] = useState<string[]>([]);
-  const svgRef = useRef<SVGSVGElement>(null);
 
   const handleClick = (target: HTMLElement) => {
     if (!target.classList.contains('place')) return;
@@ -24,5 +23,5 @@ export const Hall = () => {
     });
   };
 
-  return <HallSVG ref={svgRef} onClick={({ target }) => handleClick(target as HTMLElement)} />;
+  return <HallSVG onClick={({ target }) => handleClick(target as HTMLElement)} />;
 };

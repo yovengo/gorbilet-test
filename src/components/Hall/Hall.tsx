@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { addSeatNumberLabel } from '../../utils/addSeatNumberLabel';
 import { removeSeatNumberLabel } from '../../utils/removeSeatNumberLabel';
 import { ReactComponent as HallSVG } from '../../assets/hall.svg';
